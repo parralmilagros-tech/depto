@@ -5,8 +5,8 @@ import time
 from telegram import Bot
 
 # Variables de entorno
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+TELEGRAM_TOKEN = os.getenv("8371356146:AAGv3E4HUdyYnuEko3J4j2aZqwYqqyZCh34")
+CHAT_ID = os.getenv("1700481674")
 bot = Bot(token=TELEGRAM_TOKEN)
 
 def buscar_departamentos():
